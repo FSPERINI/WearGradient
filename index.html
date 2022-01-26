@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez la nouvelle collection Gradient. Achetez nos vêtements exclusifs et originaux, de couleur pastel. Votre garde-robe sera desormais adoucie">
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Mode - Vêtements pastel unisexe | Gradient</title>
+</head>
+
+<body>
+
+    <header class="flex">
+        <div class="contentWrapper">
+            <nav class="navDesktop">
+                <ul class="flex align-center">
+                    <li><a href="index.html"><img src="assets/img/logo.svg" class="logo" alt="Logo Gradient"></a></li>
+
+                    <div class="flex justify-around">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
+                </ul>
+            </nav>
+
+            <nav class="navMobile">
+                <ul>
+                    <li><a href="index.html"><img src="assets/img/logo.svg" class="logo" alt="Logo WearGradient"></a></li>
+                    <li>
+                        <a href="javascript:void(0);" class="icon" onclick="openHamburger()">
+                            <i>
+                                <svg viewBox="0 0 100 100" width="32" height="32">
+                                    <rect width="100" height="5"></rect>
+                                    <rect y="30" width="100" height="05"></rect>
+                                    <rect y="60" width="100" height="05"></rect>
+                                </svg>
+                            </i>
+                        </a>
+                    </li>
+                </ul>    
+            </nav>
+        </div>
+
+        <nav id="menuHamburger">
+            <div class="contentWrapper">
+                <a href="javascript:void(0);" onclick="closeHamburger()" class="close">&#9932;</a>
+            </div>
+            <div class="hbContent">
+                <ul>
+                    <li><a href="index.html" onclick="closeHamburger()">Accueil</a></li>
+                    <li><a href="about.html" onclick="closeHamburger()">À Propos</a></li>
+                    <li><a href="contact.html" onclick="closeHamburger()">Contact</a></li>
+                </ul>
+            </div>
+        </nav>        
+    </header>
+
+        <main>
+            <section id="pageTitle" class="contentWrapper">
+                <h1 class="pb-1r">Wear Gradient</h1>
+                <p class="pb-1r">Laissez vous emporter par l'harmonie des classiques intemporels de la nouvelle collection "Wear" Gradient</p>
+            </section>
+
+            <section id="mosaic" class="mb-3r">
+                <div class="contentWrapper">
+                    <div class="contentMosaic">
+                        <div class="mosaicElem">
+                            <div class="elem elem1"><img src="assets/img/1.png"></div>
+                            <div class="elem elem2"><img src="assets/img/2.png"></div>
+                        </div>
+                        <div class="mosaicElem">
+                            <div class="elem elem3"><img src="assets/img/3.png">
+                            </div>
+                            <div class="elem elem4"><img src="assets/img/4.png"></div>
+                        </div>
+                        <div class="mosaicElem">
+                            <div class="elem elem5"><img src="assets/img/5.png"></div>
+                            <div class="elem elem6"><img src="assets/img/6.png"></div>
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+
+            <section id="subMenu" class="contentWrapper">
+                <nav>
+                    <div class="subMenu-1">
+                        <ul>
+                            <li><a href="https://alxbsq.fr/project/gradient/wp/categorie-produit/vetements/hauts/">Hauts</a></li>
+                            <li><a href="https://alxbsq.fr/project/gradient/wp/categorie-produit/vetements/bas/">Bas</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="subMenu-2">
+                        <ul>
+                            <li><a href="https://alxbsq.fr/project/gradient/wp/categorie-produit/vetements/sous-vetements/">Sous-vêtements</a></li>        
+                            <li><a href="https://alxbsq.fr/project/gradient/wp/categorie-produit/vetements/pantalons/">Accessoires</a></li>
+                        </ul>
+                    </div>                            
+                </nav>
+            </section>
+
+            <section id="newsletter" class="contentWrapper pt-3r">
+                <div class="newsContent flex justify-center align-center">
+
+                    <p class="pb-2r">Inscrivez-vous à la newsletter Gradient</p>
+                    <form action="index.html" method="POST">
+                        <label for="email" hidden>Email</label>
+                        <input type="email" name="email" placeholder="Indiquez votre adresse email">
+                        <button type="submit" value="submit">S'inscrire</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+    <footer>
+        <div class="contentWrapper">
+            <p>© Gradient</p>
+            <div class="mentions">
+                <a href="" class="pr-2r">Mentions Légales</a>      
+                <a href="">Politique de Confidentialité</a>
+            </div>
+            <div class="reseaux">   
+                <a href="https://www.instagram.com/wear_gradient/"><i class="fab fa-instagram fa-2x pr-1r"></i></a>
+                <a href="https://www.facebook.com/wear.gradient"><i class="fab fa-facebook fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+</html>
